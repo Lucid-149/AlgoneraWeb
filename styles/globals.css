@@ -41,7 +41,7 @@ section {
   @apply mx-auto;
 }
 object {
-  @apply h-full;
+  @apply h-full bg-none;
 }
 .hero{
   @apply flex flex-wrap w-full items-center justify-between container

@@ -94,7 +94,7 @@ export default function Home() {
             "
           />
         </section>
-        <section className=" flex h-screen items-center justify-evenly" id="contact">
+        <section className=" flex h-screen items-center justify-evenly flex-wrap-reverse" id="contact">
           <div className="">
           <div className="w-full hover:ml-20  ease-in-out duration-700">
             <Contact
