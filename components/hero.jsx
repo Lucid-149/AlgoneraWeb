@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="hero"> 
       <div className="">
         <h1>
-          Hi, I'm <span className="name">John Doe</span>
+          Hi, I am <span className="name">John Doe</span>
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi error
@@ -21,7 +21,6 @@ export default function Hero() {
         </p>
       </div>
       <div>
-
       <button className="heroBtn">contact us</button>
       </div>
     </div>
