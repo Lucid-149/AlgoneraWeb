@@ -2,16 +2,16 @@ import React, {useState} from 'react'
 // import icons from 'react-icons'
 import {  FaUser, FaProjectDiagram } from 'react-icons/fa'
 import { AiOutlineHome, AiOutlineContacts } from 'react-icons/ai'
-export default function NavBar() {
+export default function NavBar(props) {
     const [darkMode, setDarkMode] = useState(false)
     function toggleDarkMode() {
         setDarkMode(!darkMode)
       }
   return (
     <nav>
-        <ul className='navbar'>
+        <ul className='navbar bg-white bg-opacity-10'>
             <div className='h-10'>
-            <object data='/dark.svg' type='image/svg+xml'></object>
+            {props.svg}
 
             </div>
             <li className=' p-4'>
